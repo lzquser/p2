@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Bundle-Name: project-boot
+Bundle-Version: 7.0.0.0
+contribution-role-type: boot
+Bundle-Vendor: Administrator
+

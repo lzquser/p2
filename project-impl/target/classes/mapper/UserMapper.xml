@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.primeton.eos.mapper.UserMapper">
+
+  
+
+
+  <insert id="save" parameterType="com.primeton.eos.model.User">
+        INSERT INTO `userinf` (name,age,gender,tel)
+        VALUES (#{name}, #{age}, #{gender}, #{tel}) 
+    </insert>
+
+    <update id="modify" parameterType="com.primeton.eos.model.User">
+        UPDATE `userinf`
+        set 
+        name=#{name},
+        name=#{age},
+        name=#{gender},
+        name=#{tel}
+        WHERE id = #{id}
+    </update>
+
+    <delete id="delete" parameterType="java.lang.String">
+        DELETE FROM `userinf` WHERE id = #{id}
+    </delete>
+
+    <select id="findOrderById" parameterType="java.lang.String" resultType="com.primeton.eos.model.User">
+        SELECT * FROM userinf WHERE id = #{id}
+    </select>
+
+   
+
+</mapper>

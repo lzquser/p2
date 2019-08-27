@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.primeton.eos</groupId>
+    <artifactId>project</artifactId>
+    <version>1.0.0.0</version>
+  </parent>
+  <artifactId>project-boot</artifactId>
+  <name>project-boot</name>
+  <dependencies>
+    <dependency>
+      <groupId>com.primeton.ptp</groupId>
+      <artifactId>ptp-spring-cloud-starter-boat</artifactId>
+      <version>${eos.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-test</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.primeton.iam</groupId>
+      <artifactId>iam-security-starter</artifactId>
+      <version>${eos.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.primeton.eos</groupId>
+      <artifactId>project-impl</artifactId>
+      <version>1.0.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.primeton.eos</groupId>
+      <artifactId>project-api</artifactId>
+      <version>1.0.0.0</version>
+    </dependency>
+    
+    
+      <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <scope>runtime</scope>
+    </dependency>
+    
+     <dependency>
+	    <groupId>org.mybatis.spring.boot</groupId>
+	    <artifactId>mybatis-spring-boot-starter</artifactId>
+	    <version>1.3.1</version>
+		<exclusions>
+            <exclusion>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+            </exclusion>
+            <exclusion>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-core</artifactId>
+            </exclusion>
+        </exclusions>
+   </dependency>
+    
+    
+    
+  </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
+</project>

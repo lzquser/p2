@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Bundle-Name: project-api
+Bundle-Version: 7.0.0.0
+contribution-role-type: api
+Bundle-Vendor: Administrator
+
