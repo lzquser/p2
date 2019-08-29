@@ -1,84 +1,28 @@
-2019-08-28 09:17:44.677  INFO 8876 --- [main] .p.b.c.i.ApolloConfigEnvironmentResolver : Apollo config hash bean initialized from environment . {} ApolloConfigSettings [cluster=default, env=dev, dataCenter=null, domains={local_meta=http://127.0.0.1:8081, dev_meta=http://127.0.0.1:8081, fat_meta=http://127.0.0.1:8081, uat_meta=http://127.0.0.1:8081, pro_meta=http://127.0.0.1:8081}]
-2019-08-28 09:17:44.719  WARN 8876 --- [main] c.c.f.f.i.p.DefaultApplicationProvider   : /META-INF/app.properties not found from classpath!
-2019-08-28 09:17:44.719  WARN 8876 --- [main] c.c.f.f.i.p.DefaultApplicationProvider   : app.id is not available from System Property and /META-INF/app.properties. It is set to null
-2019-08-28 09:17:44.719  WARN 8876 --- [main] c.c.f.f.i.p.DefaultServerProvider        : C:/opt/settings/server.properties does not exist or is not readable.
-2019-08-28 09:17:44.719  WARN 8876 --- [main] c.c.f.f.i.p.DefaultServerProvider        : Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
-2019-08-28 09:17:44.719  INFO 8876 --- [main] c.p.p.b.c.i.a.BoatProviderManager        : BoatProviderManager <init>
-2019-08-28 09:17:44.735  WARN 8876 --- [main] c.c.f.f.i.p.DefaultApplicationProvider   : /META-INF/app.properties not found from classpath!
-2019-08-28 09:17:44.735  WARN 8876 --- [main] c.c.f.f.i.p.DefaultApplicationProvider   : app.id is not available from System Property and /META-INF/app.properties. It is set to null
-2019-08-28 09:17:44.735  INFO 8876 --- [main] c.p.p.b.c.i.a.BoatApplicationProvider    : App ID is set to kjcx-demo by 'spring.application.name' property from spring environment
-2019-08-28 09:17:44.735  WARN 8876 --- [main] c.c.f.f.i.p.DefaultServerProvider        : C:/opt/settings/server.properties does not exist or is not readable.
-2019-08-28 09:17:44.735  WARN 8876 --- [main] c.c.f.f.i.p.DefaultServerProvider        : Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
-2019-08-28 09:17:44.735  INFO 8876 --- [main] c.p.p.b.c.i.a.BoatServerProvider         : Environment is set to [null] by property 'apollo.data-center' in spring environment .
-2019-08-28 09:17:44.735  INFO 8876 --- [main] c.p.p.b.c.i.a.BoatServerProvider         : Environment is set to [dev] by property 'apollo.env' in spring environment .
-2019-08-28 09:17:44.735  WARN 8876 --- [main] c.c.f.f.i.p.DefaultApplicationProvider   : /META-INF/app.properties not found from classpath!
-2019-08-28 09:17:44.735  WARN 8876 --- [main] c.c.f.f.i.p.DefaultApplicationProvider   : app.id is not available from System Property and /META-INF/app.properties. It is set to null
-2019-08-28 09:17:44.735  WARN 8876 --- [main] c.c.f.f.i.p.DefaultServerProvider        : C:/opt/settings/server.properties does not exist or is not readable.
-2019-08-28 09:17:44.735  WARN 8876 --- [main] c.c.f.f.i.p.DefaultServerProvider        : Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
-2019-08-28 09:17:44.735  INFO 8876 --- [main] c.p.p.b.c.i.a.BoatProviderManager        : BoatProviderManager <init>
-2019-08-28 09:17:44.735  WARN 8876 --- [main] c.c.f.f.i.p.DefaultApplicationProvider   : /META-INF/app.properties not found from classpath!
-2019-08-28 09:17:44.735  WARN 8876 --- [main] c.c.f.f.i.p.DefaultApplicationProvider   : app.id is not available from System Property and /META-INF/app.properties. It is set to null
-2019-08-28 09:17:44.735  INFO 8876 --- [main] c.p.p.b.c.i.a.BoatApplicationProvider    : App ID is set to kjcx-demo by 'spring.application.name' property from spring environment
-2019-08-28 09:17:44.735  WARN 8876 --- [main] c.c.f.f.i.p.DefaultServerProvider        : C:/opt/settings/server.properties does not exist or is not readable.
-2019-08-28 09:17:44.735  WARN 8876 --- [main] c.c.f.f.i.p.DefaultServerProvider        : Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
-2019-08-28 09:17:44.735  INFO 8876 --- [main] c.p.p.b.c.i.a.BoatServerProvider         : Environment is set to [null] by property 'apollo.data-center' in spring environment .
-2019-08-28 09:17:44.735  INFO 8876 --- [main] c.p.p.b.c.i.a.BoatServerProvider         : Environment is set to [dev] by property 'apollo.env' in spring environment .
-2019-08-28 09:17:44.782  INFO 8876 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4b3a45f1: startup date [Wed Aug 28 09:17:44 CST 2019]; root of context hierarchy
-2019-08-28 09:17:45.090  INFO 8876 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-2019-08-28 09:17:45.137  INFO 8876 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3a24262d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-08-28 09:40:22.576  INFO 7444 --- [main] .p.b.c.i.ApolloConfigEnvironmentResolver : Apollo config hash bean initialized from environment . {} ApolloConfigSettings [cluster=default, env=dev, dataCenter=null, domains={local_meta=http://127.0.0.1:8081, dev_meta=http://127.0.0.1:8081, fat_meta=http://127.0.0.1:8081, uat_meta=http://127.0.0.1:8081, pro_meta=http://127.0.0.1:8081}]
-2019-08-28 09:40:22.594  WARN 7444 --- [main] c.c.f.f.i.p.DefaultApplicationProvider   : /META-INF/app.properties not found from classpath!
-2019-08-28 09:40:22.595  WARN 7444 --- [main] c.c.f.f.i.p.DefaultApplicationProvider   : app.id is not available from System Property and /META-INF/app.properties. It is set to null
-2019-08-28 09:40:22.620  WARN 7444 --- [main] c.c.f.f.i.p.DefaultServerProvider        : C:/opt/settings/server.properties does not exist or is not readable.
-2019-08-28 09:40:22.620  WARN 7444 --- [main] c.c.f.f.i.p.DefaultServerProvider        : Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
-2019-08-28 09:40:22.620  INFO 7444 --- [main] c.p.p.b.c.i.a.BoatProviderManager        : BoatProviderManager <init>
-2019-08-28 09:40:22.622  WARN 7444 --- [main] c.c.f.f.i.p.DefaultApplicationProvider   : /META-INF/app.properties not found from classpath!
-2019-08-28 09:40:22.622  WARN 7444 --- [main] c.c.f.f.i.p.DefaultApplicationProvider   : app.id is not available from System Property and /META-INF/app.properties. It is set to null
-2019-08-28 09:40:22.622  INFO 7444 --- [main] c.p.p.b.c.i.a.BoatApplicationProvider    : App ID is set to kjcx-demo by 'spring.application.name' property from spring environment
-2019-08-28 09:40:22.624  WARN 7444 --- [main] c.c.f.f.i.p.DefaultServerProvider        : C:/opt/settings/server.properties does not exist or is not readable.
-2019-08-28 09:40:22.624  WARN 7444 --- [main] c.c.f.f.i.p.DefaultServerProvider        : Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
-2019-08-28 09:40:22.624  INFO 7444 --- [main] c.p.p.b.c.i.a.BoatServerProvider         : Environment is set to [null] by property 'apollo.data-center' in spring environment .
-2019-08-28 09:40:22.624  INFO 7444 --- [main] c.p.p.b.c.i.a.BoatServerProvider         : Environment is set to [dev] by property 'apollo.env' in spring environment .
-2019-08-28 09:40:22.626  WARN 7444 --- [main] c.c.f.f.i.p.DefaultApplicationProvider   : /META-INF/app.properties not found from classpath!
-2019-08-28 09:40:22.627  WARN 7444 --- [main] c.c.f.f.i.p.DefaultApplicationProvider   : app.id is not available from System Property and /META-INF/app.properties. It is set to null
-2019-08-28 09:40:22.627  WARN 7444 --- [main] c.c.f.f.i.p.DefaultServerProvider        : C:/opt/settings/server.properties does not exist or is not readable.
-2019-08-28 09:40:22.627  WARN 7444 --- [main] c.c.f.f.i.p.DefaultServerProvider        : Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
-2019-08-28 09:40:22.627  INFO 7444 --- [main] c.p.p.b.c.i.a.BoatProviderManager        : BoatProviderManager <init>
-2019-08-28 09:40:22.627  WARN 7444 --- [main] c.c.f.f.i.p.DefaultApplicationProvider   : /META-INF/app.properties not found from classpath!
-2019-08-28 09:40:22.628  WARN 7444 --- [main] c.c.f.f.i.p.DefaultApplicationProvider   : app.id is not available from System Property and /META-INF/app.properties. It is set to null
-2019-08-28 09:40:22.628  INFO 7444 --- [main] c.p.p.b.c.i.a.BoatApplicationProvider    : App ID is set to kjcx-demo by 'spring.application.name' property from spring environment
-2019-08-28 09:40:22.628  WARN 7444 --- [main] c.c.f.f.i.p.DefaultServerProvider        : C:/opt/settings/server.properties does not exist or is not readable.
-2019-08-28 09:40:22.628  WARN 7444 --- [main] c.c.f.f.i.p.DefaultServerProvider        : Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
-2019-08-28 09:40:22.628  INFO 7444 --- [main] c.p.p.b.c.i.a.BoatServerProvider         : Environment is set to [null] by property 'apollo.data-center' in spring environment .
-2019-08-28 09:40:22.628  INFO 7444 --- [main] c.p.p.b.c.i.a.BoatServerProvider         : Environment is set to [dev] by property 'apollo.env' in spring environment .
-2019-08-28 09:40:22.672  INFO 7444 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4b3a45f1: startup date [Wed Aug 28 09:40:22 CST 2019]; root of context hierarchy
-2019-08-28 09:40:22.906  INFO 7444 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-2019-08-28 09:40:22.946  INFO 7444 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ec55624] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-08-28 15:07:17.964  INFO 11628 --- [main] .p.b.c.i.ApolloConfigEnvironmentResolver : Apollo config hash bean initialized from environment . {} ApolloConfigSettings [cluster=default, env=dev, dataCenter=null, domains={local_meta=http://127.0.0.1:8081, dev_meta=http://127.0.0.1:8081, fat_meta=http://127.0.0.1:8081, uat_meta=http://127.0.0.1:8081, pro_meta=http://127.0.0.1:8081}]
-2019-08-28 15:07:18.035  WARN 11628 --- [main] c.c.f.f.i.p.DefaultApplicationProvider   : /META-INF/app.properties not found from classpath!
-2019-08-28 15:07:18.036  WARN 11628 --- [main] c.c.f.f.i.p.DefaultApplicationProvider   : app.id is not available from System Property and /META-INF/app.properties. It is set to null
-2019-08-28 15:07:18.038  WARN 11628 --- [main] c.c.f.f.i.p.DefaultServerProvider        : C:/opt/settings/server.properties does not exist or is not readable.
-2019-08-28 15:07:18.038  WARN 11628 --- [main] c.c.f.f.i.p.DefaultServerProvider        : Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
-2019-08-28 15:07:18.039  INFO 11628 --- [main] c.p.p.b.c.i.a.BoatProviderManager        : BoatProviderManager <init>
-2019-08-28 15:07:18.040  WARN 11628 --- [main] c.c.f.f.i.p.DefaultApplicationProvider   : /META-INF/app.properties not found from classpath!
-2019-08-28 15:07:18.040  WARN 11628 --- [main] c.c.f.f.i.p.DefaultApplicationProvider   : app.id is not available from System Property and /META-INF/app.properties. It is set to null
-2019-08-28 15:07:18.040  INFO 11628 --- [main] c.p.p.b.c.i.a.BoatApplicationProvider    : App ID is set to kjcx-demo by 'spring.application.name' property from spring environment
-2019-08-28 15:07:18.042  WARN 11628 --- [main] c.c.f.f.i.p.DefaultServerProvider        : C:/opt/settings/server.properties does not exist or is not readable.
-2019-08-28 15:07:18.042  WARN 11628 --- [main] c.c.f.f.i.p.DefaultServerProvider        : Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
-2019-08-28 15:07:18.042  INFO 11628 --- [main] c.p.p.b.c.i.a.BoatServerProvider         : Environment is set to [null] by property 'apollo.data-center' in spring environment .
-2019-08-28 15:07:18.043  INFO 11628 --- [main] c.p.p.b.c.i.a.BoatServerProvider         : Environment is set to [dev] by property 'apollo.env' in spring environment .
-2019-08-28 15:07:18.045  WARN 11628 --- [main] c.c.f.f.i.p.DefaultApplicationProvider   : /META-INF/app.properties not found from classpath!
-2019-08-28 15:07:18.045  WARN 11628 --- [main] c.c.f.f.i.p.DefaultApplicationProvider   : app.id is not available from System Property and /META-INF/app.properties. It is set to null
-2019-08-28 15:07:18.045  WARN 11628 --- [main] c.c.f.f.i.p.DefaultServerProvider        : C:/opt/settings/server.properties does not exist or is not readable.
-2019-08-28 15:07:18.046  WARN 11628 --- [main] c.c.f.f.i.p.DefaultServerProvider        : Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
-2019-08-28 15:07:18.046  INFO 11628 --- [main] c.p.p.b.c.i.a.BoatProviderManager        : BoatProviderManager <init>
-2019-08-28 15:07:18.047  WARN 11628 --- [main] c.c.f.f.i.p.DefaultApplicationProvider   : /META-INF/app.properties not found from classpath!
-2019-08-28 15:07:18.047  WARN 11628 --- [main] c.c.f.f.i.p.DefaultApplicationProvider   : app.id is not available from System Property and /META-INF/app.properties. It is set to null
-2019-08-28 15:07:18.047  INFO 11628 --- [main] c.p.p.b.c.i.a.BoatApplicationProvider    : App ID is set to kjcx-demo by 'spring.application.name' property from spring environment
-2019-08-28 15:07:18.047  WARN 11628 --- [main] c.c.f.f.i.p.DefaultServerProvider        : C:/opt/settings/server.properties does not exist or is not readable.
-2019-08-28 15:07:18.047  WARN 11628 --- [main] c.c.f.f.i.p.DefaultServerProvider        : Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
-2019-08-28 15:07:18.048  INFO 11628 --- [main] c.p.p.b.c.i.a.BoatServerProvider         : Environment is set to [null] by property 'apollo.data-center' in spring environment .
-2019-08-28 15:07:18.048  INFO 11628 --- [main] c.p.p.b.c.i.a.BoatServerProvider         : Environment is set to [dev] by property 'apollo.env' in spring environment .
-2019-08-28 15:07:18.125  INFO 11628 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6aecbb8d: startup date [Wed Aug 28 15:07:18 CST 2019]; root of context hierarchy
-2019-08-28 15:07:18.479  INFO 11628 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-2019-08-28 15:07:18.558  INFO 11628 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a4899375] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-29 14:11:40.511  INFO 7228 --- [main] .p.b.c.i.ApolloConfigEnvironmentResolver : Apollo config hash bean initialized from environment . {} ApolloConfigSettings [cluster=default, env=dev, dataCenter=null, domains={local_meta=http://127.0.0.1:8081, dev_meta=http://127.0.0.1:8081, fat_meta=http://127.0.0.1:8081, uat_meta=http://127.0.0.1:8081, pro_meta=http://127.0.0.1:8081}]
+2019-08-29 14:11:40.556  WARN 7228 --- [main] c.c.f.f.i.p.DefaultApplicationProvider   : /META-INF/app.properties not found from classpath!
+2019-08-29 14:11:40.556  WARN 7228 --- [main] c.c.f.f.i.p.DefaultApplicationProvider   : app.id is not available from System Property and /META-INF/app.properties. It is set to null
+2019-08-29 14:11:40.572  WARN 7228 --- [main] c.c.f.f.i.p.DefaultServerProvider        : C:/opt/settings/server.properties does not exist or is not readable.
+2019-08-29 14:11:40.572  WARN 7228 --- [main] c.c.f.f.i.p.DefaultServerProvider        : Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-08-29 14:11:40.572  INFO 7228 --- [main] c.p.p.b.c.i.a.BoatProviderManager        : BoatProviderManager <init>
+2019-08-29 14:11:40.572  WARN 7228 --- [main] c.c.f.f.i.p.DefaultApplicationProvider   : /META-INF/app.properties not found from classpath!
+2019-08-29 14:11:40.572  WARN 7228 --- [main] c.c.f.f.i.p.DefaultApplicationProvider   : app.id is not available from System Property and /META-INF/app.properties. It is set to null
+2019-08-29 14:11:40.572  INFO 7228 --- [main] c.p.p.b.c.i.a.BoatApplicationProvider    : App ID is set to kjcx-demo by 'spring.application.name' property from spring environment
+2019-08-29 14:11:40.572  WARN 7228 --- [main] c.c.f.f.i.p.DefaultServerProvider        : C:/opt/settings/server.properties does not exist or is not readable.
+2019-08-29 14:11:40.572  WARN 7228 --- [main] c.c.f.f.i.p.DefaultServerProvider        : Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-08-29 14:11:40.572  INFO 7228 --- [main] c.p.p.b.c.i.a.BoatServerProvider         : Environment is set to [null] by property 'apollo.data-center' in spring environment .
+2019-08-29 14:11:40.572  INFO 7228 --- [main] c.p.p.b.c.i.a.BoatServerProvider         : Environment is set to [dev] by property 'apollo.env' in spring environment .
+2019-08-29 14:11:40.572  WARN 7228 --- [main] c.c.f.f.i.p.DefaultApplicationProvider   : /META-INF/app.properties not found from classpath!
+2019-08-29 14:11:40.572  WARN 7228 --- [main] c.c.f.f.i.p.DefaultApplicationProvider   : app.id is not available from System Property and /META-INF/app.properties. It is set to null
+2019-08-29 14:11:40.572  WARN 7228 --- [main] c.c.f.f.i.p.DefaultServerProvider        : C:/opt/settings/server.properties does not exist or is not readable.
+2019-08-29 14:11:40.572  WARN 7228 --- [main] c.c.f.f.i.p.DefaultServerProvider        : Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-08-29 14:11:40.572  INFO 7228 --- [main] c.p.p.b.c.i.a.BoatProviderManager        : BoatProviderManager <init>
+2019-08-29 14:11:40.572  WARN 7228 --- [main] c.c.f.f.i.p.DefaultApplicationProvider   : /META-INF/app.properties not found from classpath!
+2019-08-29 14:11:40.572  WARN 7228 --- [main] c.c.f.f.i.p.DefaultApplicationProvider   : app.id is not available from System Property and /META-INF/app.properties. It is set to null
+2019-08-29 14:11:40.572  INFO 7228 --- [main] c.p.p.b.c.i.a.BoatApplicationProvider    : App ID is set to kjcx-demo by 'spring.application.name' property from spring environment
+2019-08-29 14:11:40.572  WARN 7228 --- [main] c.c.f.f.i.p.DefaultServerProvider        : C:/opt/settings/server.properties does not exist or is not readable.
+2019-08-29 14:11:40.572  WARN 7228 --- [main] c.c.f.f.i.p.DefaultServerProvider        : Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-08-29 14:11:40.572  INFO 7228 --- [main] c.p.p.b.c.i.a.BoatServerProvider         : Environment is set to [null] by property 'apollo.data-center' in spring environment .
+2019-08-29 14:11:40.572  INFO 7228 --- [main] c.p.p.b.c.i.a.BoatServerProvider         : Environment is set to [dev] by property 'apollo.env' in spring environment .
+2019-08-29 14:11:40.634  INFO 7228 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6aecbb8d: startup date [Thu Aug 29 14:11:40 CST 2019]; root of context hierarchy
+2019-08-29 14:11:40.922  INFO 7228 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-08-29 14:11:40.968  INFO 7228 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2a3113fe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
