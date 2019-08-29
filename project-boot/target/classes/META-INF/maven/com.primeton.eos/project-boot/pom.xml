@@ -5,7 +5,7 @@
   <parent>
     <groupId>com.primeton.eos</groupId>
     <artifactId>project</artifactId>
-    <version>1.0.0.0</version>
+    <version>${prant.version}</version>
   </parent>
   <artifactId>project-boot</artifactId>
   <name>project-boot</name>
@@ -28,12 +28,12 @@
     <dependency>
       <groupId>com.primeton.eos</groupId>
       <artifactId>project-impl</artifactId>
-      <version>1.0.0.0</version>
+      <version>${prant.version}</version>
     </dependency>
     <dependency>
       <groupId>com.primeton.eos</groupId>
       <artifactId>project-api</artifactId>
-      <version>1.0.0.0</version>
+      <version>${prant.version}</version>
     </dependency>
     
     

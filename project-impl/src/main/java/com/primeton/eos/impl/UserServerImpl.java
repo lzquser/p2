@@ -18,8 +18,13 @@ public class UserServerImpl implements UserSever{
 	
 	@Override
 	public int modify(UserVo uVO) {
+		
+		System.out.println("modify----------------");
 		// TODO 自动生成的方法存根
-		return 0;
+		User u=new User();
+		BeanUtils.copyProperties(uVO,u);
+		
+		return userMapper.modify(u);
 	}
 
 	@Override
@@ -32,14 +37,18 @@ public class UserServerImpl implements UserSever{
 
 	@Override
 	public int delete(String id) {
+		System.out.println("del----------------");
 		// TODO 自动生成的方法存根
-		return 0;
+		return userMapper.delete(id);
 	}
 
 	@Override
 	public int save(UserVo uVO) {
 		// TODO 自动生成的方法存根
-		return 0;
+		System.out.println("save----------------");
+		User u=new User();
+		BeanUtils.copyProperties(uVO,u);
+		return userMapper.save(u);
 	}
 
 }

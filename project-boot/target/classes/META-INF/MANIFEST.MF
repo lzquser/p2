@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Implementation-Title: project-boot
-Implementation-Version: 1.0.0.0
+Implementation-Version: ${prant.version}
 Built-By: Administrator
 Implementation-Vendor-Id: com.primeton.eos
 Build-Jdk: 1.8.0_172

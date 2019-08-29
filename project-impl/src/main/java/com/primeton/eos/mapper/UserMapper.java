@@ -3,11 +3,11 @@ package com.primeton.eos.mapper;
 import org.apache.ibatis.annotations.Mapper;
 
 import com.primeton.eos.model.User;
-import com.primeton.eos.vo.UserVo;
+
 
 
 @Mapper
-public interface UserMapper {
+public interface UserMapper{
 
 	
 	
